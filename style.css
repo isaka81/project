@@ -36,6 +36,7 @@ nav a  {
 
 .logo {
     font-size: 20px;
+    color: white;
 }
 
 .nav-link {
@@ -136,6 +137,28 @@ nav .fa {
     transition: 0.5s;
 }
 
+.footer{
+    background-color: darkgrey;
+    padding-top: 30px;
+}
+
+.menu li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40%;
+    
+}
+
+.menu a{
+    color: black;
+       
+}
+
+.copyright{
+    text-align: right;
+    padding: 0px 10px 5px 0px;
+}
+
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 20px;
@@ -163,5 +186,9 @@ nav .fa {
     }
     .row {
         flex-direction: column;
+    }
+    .menu li{
+        flex-direction: column;
+        text-align: center;
     }
 }
